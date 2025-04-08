@@ -2,43 +2,29 @@
 This is my first repository as a DevOps Engineer
 # Conceptualizing Git Setup with Tom and Jerry
 
-## 1. Initial Setup
+## GitHub Repository
 
-Both **Tom** and **Jerry** have Git installed on their computers.
+You can view the project repository on GitHub here: [GitHub Repository](https://github.com/faizaoyiza/ai-startup-website)
 
-They clone (or download) the project repository from a central repository (like GitHub, GitLab, or Bitbucket) to their local machines. This gives them each a complete copy of the project, including all its files and version history.
+## Git Commands Execution
 
-## 2. Tom and Jerry Start Working
+### 1. Cloning the Repository
+Screenshot showing the terminal output for `git clone`:
+![Cloning the repository](<img width="833" alt="Image" src="https://github.com/user-attachments/assets/6f972740-7d68-4d30-9ddc-d914f55773a1" />)
 
-Before starting their tasks, **Tom** and **Jerry** pull the latest changes from the central repository to ensure they begin with the most up-to-date version of the `index.html` file.
+### 2. Creating Branches
+Screenshot showing the terminal output for `git branch`:
+![Creating branches](<img width="930" alt="Image" src="https://github.com/user-attachments/assets/d13b5645-8232-483e-b5a0-bfe0f9a9de7f" />)
 
-They both create a new branch from the `main` project. A branch in Git allows developers to work on a copy of the codebase without affecting the main line of development. 
-- **Tom** names his branch `update-navigation`
-- **Jerry** names his branch `add-contact-info`
+### 3. Committing Changes
+Screenshot showing the terminal output for `git commit`:
+![Committing changes](<img width="905" alt="Image" src="https://github.com/user-attachments/assets/4cfba402-f93f-468d-871d-339b4e11d0c9" />)
 
-## 3. Making Changes
+### 4. Pushing Changes
+Screenshot showing the terminal output for `git push`:
+![Pushing changes](<img width="644" alt="Image" src="https://github.com/user-attachments/assets/52332430-f9e2-489d-8e0f-2baecf3f3a37" />)
 
-- On his branch, **Tom** updates the navigation bar in `index.html`.
-- Simultaneously, **Jerry** works on his branch to add contact information to the footer of the same file.
+## GitHub Dashboard
 
-Both **Tom** and **Jerry** commit their changes to their respective branches. A **commit** in Git is like saving your work with a note about what you’ve done.
-
-## 4. Merging Changes
-
-Once they’re done with their tasks, **Tom** and **Jerry** push their branches to the central repository.
-
-- **Tom** decides to merge his changes first. He creates a **pull request (PR)** for his branch `update-navigation`. A PR is a way to tell the team that he’s done and his code is ready to be reviewed and merged into the main project.
-  
-  After reviewing **Tom's** changes, the team merges his PR into the `main` branch, updating the `index.html` file on the main project line.
-
-- **Jerry** then updates his branch with the latest changes from the `main` branch to include **Tom's** updates. This step is crucial to ensure that **Jerry** is working with and integrating his changes into the most current version of the project.
-
-  **Jerry** resolves any conflicts that arise from **Tom's** changes and his own. Git provides tools and commands to help identify and resolve these conflicts.
-
-- **Jerry** then pushes his updated branch and creates a PR for his own changes. The team reviews **Jerry’s** additions, and once they’re approved, his changes are merged into the `main` project.
-
-## Conclusion
-
-Through this process, **Tom** and **Jerry** were able to work on the same file simultaneously, without overwriting each other's work. Git tracked their changes, allowing them to merge their updates seamlessly into the main project. 
-
-This example illustrates the power of using a **Version Control System (VCS)** like Git for collaborative development, ensuring that all contributions are preserved and integrated efficiently and effectively.
+Here’s a screenshot of the GitHub dashboard showing branches and commits:
+![GitHub Dashboard](<img width="955" alt="Image" src="https://github.com/user-attachments/assets/45468bdc-f7cc-44a6-93ce-c5285869387b" />)
