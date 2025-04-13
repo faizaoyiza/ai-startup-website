@@ -2,9 +2,9 @@
 This is my first repository as a DevOps Engineer
 # Conceptualizing Git Setup with Tom and Jerry
 
-## GitHub Repository
+## GitHub Repository URL
 
-You can view the project repository on GitHub here:![GitHub Repository](https://github.com/faizaoyiza/ai-startup-website)
+You can view the project repository on GitHub here https://github.com/faizaoyiza/ai-startup-website/tree/main
 
 ## Git Commands Execution
 
