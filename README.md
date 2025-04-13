@@ -28,3 +28,6 @@ Pushing changes<img width="644" alt="Image" src="https://github.com/user-attachm
 
 Here’s a screenshot of the GitHub dashboard showing branches and commits:
 GitHub Dashboard<img width="955" alt="Image" src="https://github.com/user-attachments/assets/45468bdc-f7cc-44a6-93ce-c5285869387b" />
+
+## index.html
+You can view index.html created on GitHub here https://github.com/faizaoyiza/ai-startup-website/blob/main/index.html
